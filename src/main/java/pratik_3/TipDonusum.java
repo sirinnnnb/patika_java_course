@@ -11,8 +11,8 @@ public class TipDonusum {
         double sayi2 = input.nextDouble();
         double donusum1 = sayi1 ;
         int donusum2 = (int) sayi2;
-        System.out.println("(Girdiğiniz pozitif tam sayı: " +sayi1 + ") Dönüştürülen ondalıklı sayı: " +donusum1);
-        System.out.println("(Girdiğiniz ondalıklı sayı: " +sayi2 + ") Dönüştürülen tam sayı: " +donusum2);
+        System.out.println("( Girdiğiniz pozitif tam sayı: " +sayi1 + " ) Dönüştürülen ondalıklı sayı: " +donusum1);
+        System.out.println("( Girdiğiniz ondalıklı sayı: " +sayi2 + " ) Dönüştürülen tam sayı: " +donusum2);
 
 
     }
