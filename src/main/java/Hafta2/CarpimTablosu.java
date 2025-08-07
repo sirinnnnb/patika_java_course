@@ -12,9 +12,11 @@ public class CarpimTablosu {
             System.out.println("Geçersiz sayı aralığı");
         }
         else {
-            for ( int i = 1 ; i<= sayi ; i++) {
-                carpim = sayi * i ;
-                System.out.println(sayi + " * " + i + " = " + carpim);
+                for (int i = 1; i <= sayi; i++) {
+                    for (int j = 1; j <= sayi; j++) {
+                        System.out.printf("%-4d", i * j);
+                    }
+                    System.out.println(); //
 
             }
 
